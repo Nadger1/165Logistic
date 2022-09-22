@@ -1,0 +1,58 @@
+.svg-inline--fab{
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    overflow: visible;
+    vertical-align: -.125em;
+}
+
+.blue{
+    color:#1373BA;
+}
+
+video{
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+  
+    position: fixed;    
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%); 
+        
+    z-index: -100;
+      
+    background-size: cover;
+}
+#mision{
+    padding-top:1px;
+}
+
+#clean,#food,#security,#home{
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 35px;
+    height: 100px;
+    width: 100px;   
+}
+#clean:hover,#food:hover,#security:hover,#home:hover{
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.mask{
+    padding-top: 35px !important;
+}
+#clean{
+    background-color: #265E9A;
+}
+#food{
+    background-color: #40AAB7;
+}
+#security{
+    background-color: #72C3DE;
+}
+#home{
+    background-color: #48575E;
+}
